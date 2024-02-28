@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 61.95rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #DBDBDB;
+    border-radius: 1.3rem;
+    width: 26.5rem;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.heading{
+    font-size: 2rem;
+    font-family: karla;
+    margin-top: 1.25rem;
+}
+.enter-amount{
+    margin-top: 1.938rem;
+}
+.enter-amount p{
+    font-size: 1rem;
+    font-family: karla;
+}
+.amount-input{
+    height: 2.75rem;
+    width: 21.875rem;
+    border-radius: 0.4rem;
+    border: none;
+    margin-top: 4px;
+    font-size: 1.25rem;
+    font-family: karla;
+    color: #6F6F6F;
+    padding-left: 1.125rem;
+
+}
+::placeholder{
+    font-size: 1.25rem;
+    font-family: karla;
+}
+.converter{
+    width: 21.875rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.3rem;
+    font-family: karla;
+}
+.fa-solid{
+    margin-top: 1.4rem;
+    opacity: 0.5;
+}
+.select-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 8.3rem;
+}
+.converter img{
+    max-width: 2.4rem;
+}
+.select-container select{
+    height: 2.75rem;
+    width: 4rem;
+    border-radius: 0.4rem;
+    border: none;
+    outline:0px;
+    margin-top: 4px;
+    font-size: 1.25rem;
+    font-family: karla;
+    color: #6F6F6F;
+}
+.select-container option{
+    margin-left: 9rem;
+    display: flex;
+}
+.msg{
+    font-family: karla;
+    font-size: 1.5rem;
+    color: #6f6f6f;
+    margin-top: 2rem;
+}
+.exchange-button button{
+    border: none;
+    margin-top: 2rem;
+    height: 2.75rem;
+    width: 21.875rem;
+    border-radius: 0.5rem;
+    background-color: #2D62C8;
+    font-family: karla;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
